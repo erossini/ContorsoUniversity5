@@ -1,5 +1,5 @@
 # ContorsoUnivertity5
-In the previous tutorial, you created an MVC application that stores and displays data using the Entity Framework and SQL Server LocalDB. In this tutorial, you'll review and customize the CRUD (create, read, update, delete) code that the MVC scaffolding automatically creates for you in controllers and views.
+In this tutorial, you'll review and customize the CRUD (create, read, update, delete) code that the MVC scaffolding automatically creates for you in controllers and views.
 
 What I did is an update of the project from the Microsoft repository of [ContorsoUniverity example](https://protect-eu.mimecast.com/s/-EicCEllDt32n6NIp6EEA) because it doesn't work anymore.
 
