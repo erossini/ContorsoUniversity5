@@ -36,7 +36,7 @@ namespace ContosoUniversity.Controllers
                 using (var command = conn.CreateCommand())
                 {
                     string query = "SELECT EnrollmentDate, COUNT(*) AS StudentCount "
-                        + "FROM Person "
+                        + "FROM People "
                         + "WHERE Discriminator = 'Student' "
                         + "GROUP BY EnrollmentDate";
                     command.CommandText = query;
